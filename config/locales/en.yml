@@ -1,0 +1,17 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  activerecord:
+    models:
+      spree/custom_trackers: CustomTracker
+
+  spree_custom_trackers:
+    name: Name
+    snippet: Snippet
+    active: Active
+    config_name: Custom Trackers
+    new_tracker: New Custom Tracker
+    editing_tracker: Editing Custom Tracker
+    back_to_trackers: Back to Custom Trackers
+    index_title: Custom Trackers

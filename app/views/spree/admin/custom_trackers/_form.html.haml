@@ -1,0 +1,14 @@
+.row
+  .col-md-12
+    = f.field_container :name do
+      = f.label :name, t('spree_custom_trackers.name')
+      = f.text_field :name, class: 'fullwidth form-control'
+
+  .col-md-12
+    = f.field_container :snippet do
+      = f.label :snippet, t('spree_custom_trackers.snippet')
+      = f.text_area :snippet, class: 'fullwidth form-control'
+  .col-md-12
+    = f.field_container :active do
+      = f.label :active, t('spree_custom_trackers.active')
+      = f.check_box :active, class: 'form-control'

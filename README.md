@@ -7,7 +7,7 @@ Introduction goes here.
 
 1. Add this extension to your Gemfile with this line:
   ```ruby
-  gem 'spree_custom_trackers', github: '[your-github-handle]/spree_custom_trackers'
+  gem 'spree_custom_trackers', github: 'rev365/spree_custom_trackers'
   ```
 
 2. Install the gem using Bundler:

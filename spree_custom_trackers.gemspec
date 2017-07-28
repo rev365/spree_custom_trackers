@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.homepage  = 'https://github.com/rev365/spree_custom_trackers'
   s.license = 'BSD-3-Clause'
 
-  # s.files       = `git ls-files`.split("\n")
-  # s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.files       = `git ls-files`.split("\n")
+  s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 

@@ -1,0 +1,3 @@
+- Spree::CustomTracker.where(active: true).all.each do |tracker|
+  <!-- <%= tracker.name %> snippet -->
+  = raw(tracker.snippet)

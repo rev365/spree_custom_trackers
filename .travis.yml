@@ -5,7 +5,6 @@ language: ruby
 
 env:
   - DB=postgres
-  - DB=mysql
 
 gemfile:
   - gemfiles/spree_3_2.gemfile
